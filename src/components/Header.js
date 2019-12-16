@@ -6,7 +6,7 @@ const Header = props => (
       Catch
       <span className="ofThe">
         <span className="of">Of</span>
-        <span className="the">The</span>
+        <span className="the">The adding some stuff here</span>
       </span>
       Day
     </h1>
