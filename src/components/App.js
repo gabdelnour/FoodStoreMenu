@@ -4,11 +4,15 @@ import Order from "./Order";
 import Inventory from "./Inventory";
 import sampleFishes from '../sample-fishes'
 import Fish from "./Fish"
+import base from '../base'
 
 class App extends React.Component {
   state = {
     fishes: {},
     order: {}
+  }
+  componentDidMount() {
+    console.log('MOUNTED!')
   }
 
   addFish = fish => {
