@@ -2,7 +2,6 @@ import React from "react";
 import AddFishForm from './AddFishForm'
 import EditFishForm from './EditFishForm'
 
-
 class Inventory extends React.Component {
   render() {
     return (
@@ -14,6 +13,7 @@ class Inventory extends React.Component {
           index={key}
           fish={this.props.fishes[key]} 
           updateFish={this.props.updateFish}
+          deleteFish={this.props.deleteFish}
         />
       ))}
       <AddFishForm addFish={this.props.addFish}/>
